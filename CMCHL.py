@@ -97,7 +97,7 @@ if __name__ == '__main__':
     # random.shuffle(srcNum)
     # random.shuffle(tarNum)
     # tarRandom,srcRandom=tar.iloc[tarNum],src.iloc[srcNum]
-    arg = [0.8,6,1,500,0.1]
+    arg = [0.4,6,1,500,0.1]
     print(arg)
     p1 = HEMAP(src, tar, arg)
     print(p1.src_projected)
